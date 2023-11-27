@@ -151,7 +151,7 @@
           type="button"
           data-bs-dismiss="modal"
           aria-label="Close"
-          class="btn btn-primary close-donate font-family-noto text-white lh-1 b1 fw-medium rounded-pill w-100 py-4 mx-auto my-0"
+          class="btn btn-primary font-family-noto text-white lh-1 b1 fw-medium rounded-pill w-100 py-4 mx-auto my-0"
         >
           關閉
         </button>
