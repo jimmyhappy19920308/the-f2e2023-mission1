@@ -38,8 +38,8 @@
       href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
     />
     <!-- slick css -->
-    <script type="module" crossorigin src="/the-f2e2023-mission1/assets/index-1bb13cf8.js"></script>
-    <link rel="stylesheet" href="/the-f2e2023-mission1/assets/index-7fb03fd2.css">
+    <script type="module" crossorigin src="/the-f2e2023-mission1/assets/index-cfd0b16c.js"></script>
+    <link rel="stylesheet" href="/the-f2e2023-mission1/assets/index-4deee565.css">
   </head>
 
   <body>
@@ -815,12 +815,12 @@
                 >
                   抖內去
                 </button>
-                <!-- <button
+                <button
                   class="donate-list-item-btn mobile-donate-btn d-block d-md-none btn btn-primary font-family-noto fw-medium rounded-pill text-white b1 b1-mobile-m py-3 py-md-4 lh-1"
                   data-index="0"
                 >
                   抖內去
-                </button> -->
+                </button>
               </div>
             </li>
             <li
@@ -832,7 +832,7 @@
                 <img src="/the-f2e2023-mission1/assets/好身材-e5180e6e.png" alt="" />
               </h4>
               <div
-                class="donate-list-item-body d-flex flex-column flex-md-row justify-content-md-around justify-content-lg-between"
+                class="donate-list-item-body d-flex flex-column flex-md-row align-items-center justify-content-md-around justify-content-lg-between"
               >
                 <div class="donate-list-item-photo">
                   <img src="/the-f2e2023-mission1/assets/donate_cloth 1-b86f629b.png" alt="" />
@@ -864,6 +864,12 @@
                 >
                   抖內去
                 </button>
+                <button
+                  class="donate-list-item-btn mobile-donate-btn d-block d-md-none btn btn-primary font-family-noto fw-medium rounded-pill text-white b1 b1-mobile-m py-3 py-md-4 lh-1"
+                  data-index="1"
+                >
+                  抖內去
+                </button>
               </div>
             </li>
             <li
@@ -875,7 +881,7 @@
                 <img src="/the-f2e2023-mission1/assets/好出遊-eaa52cbd.png" alt="" />
               </h4>
               <div
-                class="donate-list-item-body d-flex flex-column flex-md-row justify-content-md-around justify-content-lg-between"
+                class="donate-list-item-body d-flex flex-column flex-md-row align-items-center justify-content-md-around justify-content-lg-between"
               >
                 <div class="donate-list-item-photo">
                   <img src="/the-f2e2023-mission1/assets/donate_car 1-e9595d9a.png" alt="" />
@@ -903,6 +909,12 @@
               <div class="d-flex justify-content-center mt-3 mt-md-7">
                 <button
                   class="donate-list-item-btn donate-btn d-none d-md-inline-block btn btn-primary font-family-noto fw-medium rounded-pill text-white b1 b1-mobile-m py-3 py-md-4 lh-1"
+                  data-index="2"
+                >
+                  抖內去
+                </button>
+                <button
+                  class="donate-list-item-btn mobile-donate-btn d-block d-md-none btn btn-primary font-family-noto fw-medium rounded-pill text-white b1 b1-mobile-m py-3 py-md-4 lh-1"
                   data-index="2"
                 >
                   抖內去
@@ -943,6 +955,12 @@
               <div class="d-flex justify-content-center mt-6 mt-md-14">
                 <button
                   class="donate-list-item-btn donate-btn d-none d-md-inline-block btn btn-primary font-family-noto fw-medium rounded-pill text-white b1 b1-mobile-m py-3 py-md-4 lh-1"
+                  data-index="3"
+                >
+                  抖內去
+                </button>
+                <button
+                  class="donate-list-item-btn mobile-donate-btn d-block d-md-none btn btn-primary font-family-noto fw-medium rounded-pill text-white b1 b1-mobile-m py-3 py-md-4 lh-1"
                   data-index="3"
                 >
                   抖內去
@@ -1090,6 +1108,36 @@
     </div>
     <!-- PC donate modal end -->
 
+    <!-- Mobile donate modal start -->
+    <div
+      class="modal fade"
+      id="mobileDonateModal"
+      tabindex="-1"
+      aria-labelledby="mobileDonateModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered mx-6">
+        <div class="modal-content position-relative pb-5">
+          <div
+            class="modal-header border-bottom-0 position-absolute z-3 w-100 h-0 py-0 px-6"
+          ></div>
+          <div class="modal-body font-family-noto px-5 pt-10 pb-0">
+
+          </div>
+          <!-- <div class="modal-footer border-top-0 pt-0 pb-10">
+          <button
+            type="button"
+            aria-label="Confirm"
+            class="btn btn-primary confirm-donate font-family-noto text-white lh-1 b1 fw-medium rounded-pill py-4 mx-auto my-0"
+          >
+            確認抖內
+          </button>
+        </div> -->
+        </div>
+      </div>
+    </div>
+    <!-- Mobile donate modal end -->
+
     <!-- PC donate modal success modal start -->
     <div
       class="modal fade"
@@ -1117,59 +1165,6 @@
       </div>
     </div>
     <!-- PC donate modal success modal end-->
-
-    <!-- Mobile donate modal start -->
-    <div
-      class="modal fade"
-      id="mobileDonateModalToggle"
-      aria-hidden="true"
-      aria-labelledby="mobileDonateModalToggleLabel"
-      tabindex="-1"
-    >
-      <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
-        <div class="modal-content">
-          <div class="modal-header border-bottom-0">
-            <h1 class="modal-title fs-5" id="mobileDonateModalToggleLabel">
-              Modal 1
-            </h1>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body">
-            Show a second modal and hide this one with the button below.
-          </div>
-          <div class="modal-footer">
-            <!-- <button class="btn btn-primary" data-bs-target="#mobileDonateModalToggle2" data-bs-toggle="modal">Open second modal</button> -->
-            <button
-              class="donate-list-item-btn mobile-donate-btn d-block d-md-none btn btn-primary font-family-noto fw-medium rounded-pill text-white b1 b1-mobile-m py-3 py-md-4 lh-1"
-            >
-              抖內去
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- <div class="modal fade" id="mobileDonateModalToggle2" aria-hidden="true" aria-labelledby="mobileDonateModalToggleLabel2" tabindex="-1">
-      <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h1 class="modal-title fs-5" id="mobileDonateModalToggleLabel2">Modal 2</h1>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            Hide this modal and show the first with the button below.
-          </div>
-          <div class="modal-footer">
-            <button class="btn btn-primary" data-bs-target="#mobileDonateModalToggle" data-bs-toggle="modal">Back to first</button>
-          </div>
-        </div>
-      </div>
-    </div> -->
-    <!-- Mobile donate modal end -->
 
     <script
       src="https://c.webfontfree.com/c.js?f=MYoyoHK-Medium"
