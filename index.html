@@ -38,8 +38,8 @@
       href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
     />
     <!-- slick css -->
-    <script type="module" crossorigin src="/the-f2e2023-mission1/assets/index-5174f0be.js"></script>
-    <link rel="stylesheet" href="/the-f2e2023-mission1/assets/index-0880956d.css">
+    <script type="module" crossorigin src="/the-f2e2023-mission1/assets/index-48581a57.js"></script>
+    <link rel="stylesheet" href="/the-f2e2023-mission1/assets/index-f2708dff.css">
   </head>
 
   <body class="position-relative">
@@ -48,25 +48,22 @@
     <div class="container-fluid px-0 px-lg-3">
       <a class="navbar-brand logo" href="#"></a>
       <a class="mobile-donate-link d-lg-none position-absolute" href="#"><img src="/the-f2e2023-mission1/assets/donate-nav-cca7ab57.svg" alt=""></a>
-      <!-- <button class="navbar-toggler me-7" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <a href="#" class="img"><img src="../assets/images/hamburger-menu.svg" alt=""></a>
-      </button> -->
       <div class="menu-btn navbar-toggler me-6" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <div class="menu-btn-burger"></div>
       </div>
       <div class="collapse navbar-collapse d-lg-flex justify-content-end me-0 me-lg-6" id="navbarNav">
         <ul class="navbar-nav font-family-myoyo-hk">
           <li class="nav-item">
-            <a class="nav-link b2 text-center" href="#">關於我</a>
+            <a class="nav-link b2 text-center" href="#" data-id="about-me">關於我</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link b2 text-center" href="#">最新消息</a>
+            <a class="nav-link b2 text-center" href="#" data-id="news">最新消息</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link b2 text-center" href="#">政策建議</a>
+            <a class="nav-link b2 text-center" href="#" data-id="policy">政策建議</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link b2 text-center" href="#">小物抖內</a>
+            <a class="nav-link b2 text-center" href="#" data-id="donate">小物抖內</a>
           </li>
         </ul>
       </div>
@@ -98,7 +95,7 @@
       </section>
       <div class="container pt-30 pt-md-10 pt-lg-30">
         <!-- About Start -->
-        <section class="about-me mb-20 mb-lg-30">
+        <section id="about-me" class="about-me mb-20 mb-lg-30">
           <h1 class="about-me-title text-center lh-1 mb-10">
             <span class="head1-l font-family-bartex about-me-title-en me-3"
               >About</span
@@ -132,33 +129,33 @@
             </div>
             <!-- PC -->
             <div
-              class="d-none d-md-flex flex-column justify-content-between mt-lg-0 mt-5"
+              class="about-me-content-group2 d-none d-md-flex flex-column justify-content-between mt-lg-0 mt-5"
             >
-              <p class="font-family-hanzipen b1-l">台灣，是我的母國，</p>
-              <p class="font-family-hanzipen b1-l">
+              <p class="font-family-hanzipen">台灣，是我的母國，</p>
+              <p class="font-family-hanzipen">
                 我希望在這片美好的土地上，
               </p>
-              <p class="font-family-hanzipen b1-l">
-                推動更完善的<span class="text-primary head2 ms-2"
+              <p class="font-family-hanzipen">
+                推動更完善的<span class="about-me-content-group2-highlight text-primary head2 ms-2"
                   >性別平權政策</span
                 >
               </p>
-              <p class="font-family-hanzipen b1-l">
-                並致力發展<span class="text-primary head2 ms-2">台灣觀光</span>
+              <p class="font-family-hanzipen">
+                並致力發展<span class="about-me-content-group2-highlight text-primary head2 ms-2">台灣觀光</span>
               </p>
-              <p class="font-family-hanzipen b1-l">
+              <p class="font-family-hanzipen">
                 為台灣的經濟帶來巨大效益，實現<span
-                  class="text-primary head2 ms-2"
+                  class="about-me-content-group2-highlight text-primary head2 ms-2"
                   >粉紅力量</span
                 >
               </p>
-              <p class="font-family-hanzipen b1-l">
+              <p class="font-family-hanzipen">
                 支持每個人都可以有自己的夢想，<br
                   class="d-md-block d-lg-none"
                 />成就無限可能，
               </p>
-              <p class="font-family-hanzipen b1-l">
-                讓台灣成為最美好的<span class="text-primary head2 ms-2"
+              <p class="font-family-hanzipen">
+                讓台灣成為最美好的<span class="about-me-content-group2-highlight text-primary head2 ms-2"
                   >Barbie land</span
                 >
               </p>
@@ -183,7 +180,7 @@
         </section>
         <!-- About End -->
         <!-- News Start -->
-        <section class="news mx-2 mx-lg-0 pb-20 pb-lg-30">
+        <section id="news" class="news mx-2 mx-lg-0 pb-20 pb-lg-30">
           <h1 class="news-title text-center lh-1 mb-10">
             <span class="head1-l font-family-bartex news-title-en me-3"
               >News</span
@@ -196,7 +193,7 @@
           <ul
             class="news-list list-unstyled d-flex flex-wrap flex-md-row flex-column justify-content-between mb-10"
           >
-            <li class="news-list-item mb-5 mb-lg-0">
+            <li class="news-list-item mb-5 mb-lg-0 d-flex align-items-stretch">
               <div class="card">
                 <div class="card-header d-flex">
                   <a
@@ -251,13 +248,16 @@
                   <p class="mb-2">
                     <a class="text-white" href="#">999,999,999個讚</a>
                   </p>
-                  <p class="mb-2">
-                    Barbie芭比 ✨ You Ken, I can肯尼找頭路 ✨
-                    阿姨，我不想努力了... 這種陋習通通砍掉砍掉🪓🪓
-                    我支持男女性別平權，擺脫Barbie and
-                    ken，你就是Ken，男性在職場一樣可以發光發熱...
-                    <a class="text-gray" href="#">更多</a>
-                  </p>
+                  <div class="news-list-item-wrap">
+                    <input type="checkbox" class="exp" id="exp">
+                    <p class="news-list-item-content mb-2" line-clamp="3">
+                      <label class="more-btn text-gray" for="exp"></label>
+                      Barbie芭比 ✨ You Ken, I can肯尼找頭路 ✨
+                      阿姨，我不想努力了... 這種陋習通通砍掉砍掉🪓🪓
+                      我支持男女性別平權，擺脫Barbie and
+                      ken，你就是Ken，男性在職場一樣可以發光發熱
+                    </p>
+                  </div>
                   <p class="mb-3">
                     <a class="text-gray" href="#">查看全部 987,654 則留言</a>
                   </p>
@@ -275,7 +275,7 @@
                 </div>
               </div>
             </li>
-            <li class="news-list-item mb-5 mb-lg-0">
+            <li class="news-list-item mb-5 mb-lg-0 d-flex align-items-stretch">
               <div class="card">
                 <div class="card-header d-flex">
                   <a
@@ -330,11 +330,14 @@
                   <p class="mb-2">
                     <a class="text-white" href="#">999,999,999個讚</a>
                   </p>
-                  <p class="mb-2">
-                    Barbie芭比 ✨今晚，阿嬤饋咖廣場舞 ✨
-                    想擁有健美的芭比身材嗎？不管是大朋友小朋友，大家一起動起來，越跳越年輕，特別邀請人氣韓國女團(G)I-DL...
-                    <a class="text-gray" href="#">更多</a>
-                  </p>
+                  <div class="news-list-item-wrap">
+                    <input type="checkbox" class="exp" id="exp2">
+                    <p class="news-list-item-content mb-2" line-clamp="3">
+                      <label class="more-btn text-gray" for="exp2"></label>
+                      Barbie芭比 ✨今晚，阿嬤饋咖廣場舞 ✨
+                    想擁有健美的芭比身材嗎？不管是大朋友小朋友，大家一起動起來，越跳越年輕，特別邀請人氣韓國女團(G)I-DL
+                    </p>
+                  </div>
                   <p class="mb-3">
                     <a class="text-gray" href="#">查看全部 987,654 則留言</a>
                   </p>
@@ -352,7 +355,7 @@
                 </div>
               </div>
             </li>
-            <li class="news-list-item">
+            <li class="news-list-item d-flex align-items-stretch">
               <div class="card">
                 <div class="card-header d-flex">
                   <a
@@ -407,11 +410,14 @@
                   <p class="mb-2">
                     <a class="text-white" href="#">999,999,999個讚</a>
                   </p>
-                  <p class="mb-2">
-                    Barbie芭比 ✨尋找平底鞋代言人 ✨
-                    長時間穿著高跟鞋站立或是行走，可能產生肌肉骨骼的傷害，我推動平底鞋運動，只要穿著芭比粉及平底鞋即可參加選美大會，尋找最有自信的平底鞋代言人。...
-                    <a class="text-gray" href="#">更多</a>
-                  </p>
+                  <div class="news-list-item-wrap">
+                    <input type="checkbox" class="exp" id="exp3">
+                    <p class="news-list-item-content mb-2" line-clamp="3">
+                      <label class="more-btn text-gray" for="exp3"></label>
+                      Barbie芭比 ✨尋找平底鞋代言人 ✨
+                    長時間穿著高跟鞋站立或是行走，可能產生肌肉骨骼的傷害，我推動平底鞋運動，只要穿著芭比粉及平底鞋即可參加選美大會，尋找最有自信的平底鞋代言人。
+                    </p>
+                  </div>
                   <p class="mb-3">
                     <a class="text-gray" href="#">查看全部 987,654 則留言</a>
                   </p>
@@ -433,7 +439,7 @@
           <div class="d-flex justify-content-center">
             <a
               href="#"
-              class="btn btn-primary rounded-pill font-family-noto fw-medium ig-follow-btn lh-1 text-white"
+              class="btn rounded-pill font-family-noto fw-medium ig-follow-btn lh-1"
               >追蹤芭比Q</a
             >
           </div>
@@ -441,7 +447,7 @@
         <!-- News End -->
       </div>
       <!-- Policy Start -->
-      <section class="policy">
+      <section id="policy" class="policy">
         <h1 class="policy-title text-center lh-1 mb-8">
           <span class="head1-l font-family-bartex policy-title-en me-3"
             >Policy</span
@@ -739,7 +745,7 @@
       <!-- Policy End -->
       <div class="container">
         <!-- Donate Start -->
-        <section class="donate pb-5 pb-md-30 mx-2 mx-md-0">
+        <section id="donate" class="donate pb-5 pb-md-30 mx-2 mx-md-0">
           <h1 class="donate-title lh-1 text-center mb-10">
             <span class="head1-l font-family-bartex donate-title-en me-3"
               >Donate</span
@@ -811,13 +817,13 @@
               </div>
               <div class="d-flex justify-content-center mt-3 mt-md-8">
                 <button
-                  class="donate-list-item-btn donate-btn d-none d-md-inline-block btn btn-primary font-family-noto fw-medium rounded-pill text-white b1 b1-mobile-m py-3 py-md-4 lh-1"
+                  class="donate-list-item-btn donate-btn d-none d-md-inline-block btn font-family-noto fw-medium rounded-pill b1 b1-mobile-m py-3 py-md-4 lh-1"
                   data-index="0"
                 >
                   抖內去
                 </button>
                 <button
-                  class="donate-list-item-btn mobile-donate-btn d-block d-md-none btn btn-primary font-family-noto fw-medium rounded-pill text-white b1 b1-mobile-m py-3 py-md-4 lh-1"
+                  class="donate-list-item-btn mobile-donate-btn d-block d-md-none btn font-family-noto fw-medium rounded-pill b1 b1-mobile-m py-3 py-md-4 lh-1"
                   data-index="0"
                 >
                   抖內去
@@ -860,13 +866,13 @@
               </div>
               <div class="d-flex justify-content-center mt-3 mt-md-6">
                 <button
-                  class="donate-list-item-btn donate-btn d-none d-md-inline-block btn btn-primary font-family-noto fw-medium rounded-pill text-white b1 b1-mobile-m py-3 py-md-4 lh-1"
+                  class="donate-list-item-btn donate-btn d-none d-md-inline-block btn font-family-noto fw-medium rounded-pill b1 b1-mobile-m py-3 py-md-4 lh-1"
                   data-index="1"
                 >
                   抖內去
                 </button>
                 <button
-                  class="donate-list-item-btn mobile-donate-btn d-block d-md-none btn btn-primary font-family-noto fw-medium rounded-pill text-white b1 b1-mobile-m py-3 py-md-4 lh-1"
+                  class="donate-list-item-btn mobile-donate-btn d-block d-md-none btn font-family-noto fw-medium rounded-pill b1 b1-mobile-m py-3 py-md-4 lh-1"
                   data-index="1"
                 >
                   抖內去
@@ -909,13 +915,13 @@
               </div>
               <div class="d-flex justify-content-center mt-3 mt-md-7">
                 <button
-                  class="donate-list-item-btn donate-btn d-none d-md-inline-block btn btn-primary font-family-noto fw-medium rounded-pill text-white b1 b1-mobile-m py-3 py-md-4 lh-1"
+                  class="donate-list-item-btn donate-btn d-none d-md-inline-block btn font-family-noto fw-medium rounded-pill b1 b1-mobile-m py-3 py-md-4 lh-1"
                   data-index="2"
                 >
                   抖內去
                 </button>
                 <button
-                  class="donate-list-item-btn mobile-donate-btn d-block d-md-none btn btn-primary font-family-noto fw-medium rounded-pill text-white b1 b1-mobile-m py-3 py-md-4 lh-1"
+                  class="donate-list-item-btn mobile-donate-btn d-block d-md-none btn font-family-noto fw-medium rounded-pill b1 b1-mobile-m py-3 py-md-4 lh-1"
                   data-index="2"
                 >
                   抖內去
@@ -955,13 +961,13 @@
               </div>
               <div class="d-flex justify-content-center mt-6 mt-md-14">
                 <button
-                  class="donate-list-item-btn donate-btn d-none d-md-inline-block btn btn-primary font-family-noto fw-medium rounded-pill text-white b1 b1-mobile-m py-3 py-md-4 lh-1"
+                  class="donate-list-item-btn donate-btn d-none d-md-inline-block btn font-family-noto fw-medium rounded-pill b1 b1-mobile-m py-3 py-md-4 lh-1"
                   data-index="3"
                 >
                   抖內去
                 </button>
                 <button
-                  class="donate-list-item-btn mobile-donate-btn d-block d-md-none btn btn-primary font-family-noto fw-medium rounded-pill text-white b1 b1-mobile-m py-3 py-md-4 lh-1"
+                  class="donate-list-item-btn mobile-donate-btn d-block d-md-none btn font-family-noto fw-medium rounded-pill b1 b1-mobile-m py-3 py-md-4 lh-1"
                   data-index="3"
                 >
                   抖內去
@@ -1055,7 +1061,7 @@
                 </div>
                 <button
                   type="submit"
-                  class="btn btn-primary feedback-group-form-submit b1 rounded-pill w-100 font-family-noto fw-medium lh-1 text-white"
+                  class="btn feedback-group-form-submit b1 rounded-pill w-100 font-family-noto fw-medium lh-1"
                 >
                   送出
                 </button>
@@ -1099,7 +1105,7 @@
             <button
               type="button"
               aria-label="Confirm"
-              class="btn btn-primary confirm-donate font-family-noto text-white lh-1 b1 fw-medium rounded-pill py-4 mx-auto my-0"
+              class="btn confirm-donate font-family-noto lh-1 b1 fw-medium rounded-pill py-4 mx-auto my-0"
             >
               確認抖內
             </button>
